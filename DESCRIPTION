@@ -1,0 +1,23 @@
+Package: odl
+Type: Package
+Title: Performs Organelle DNA-based Lineage Analysis
+Version: 0.1.0
+Author: Matthew Cserhati
+Maintainer: Matthew Cserhati <csmatyi@protonmail.com>
+Description: This package reads in a list of NCBI accessions with Latin names ina  list. 
+    The user selects this file, and then the program downloads the sequences and annotation.
+    It then creates several figures: 1. a diagram showing gene/rRNA/tRNA order on the genome
+    sequences. 2. a gene order similarity matrix. 3. a sequence similarity matrix.
+    It also performs k-means clustering after estimating the optimal number of k clusters.
+    It also produces a Silhouette plot based on sequence similarity and also gene order.
+    It also clusters the species and calculates statistics for the clusters.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3

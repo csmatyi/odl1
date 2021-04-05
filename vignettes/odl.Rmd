@@ -1,0 +1,15 @@
+---
+title: "odl"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{odl}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Organelle DNA Lineages Vignette
+
+```{r}
+library(odl)
+hello()
+```
